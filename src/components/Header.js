@@ -5,8 +5,8 @@ import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import Avatar from "@material-ui/core/Avatar";
-import youTubeLogo from "./images/yt_logo_rgb_light.png";
-import portrait from "./images/2020_june_head.png";
+import youTubeLogo from "../images/yt_logo_rgb_light.png";
+import portrait from "../images/2020_june_head.png";
 import { Link } from "react-router-dom";
 import "./Header.css";
 

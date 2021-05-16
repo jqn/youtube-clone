@@ -4,8 +4,8 @@ import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
 import "./SearchPage.css";
 import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
-import videoThumbnail from "./images/ironman_real_suit.jpg";
-import channelThumbnail from "./images/avatar_alex_lab.jpg";
+import videoThumbnail from "../images/ironman_real_suit.jpg";
+import channelThumbnail from "../images/avatar_alex_lab.jpg";
 
 const SearchPage = () => {
   return (

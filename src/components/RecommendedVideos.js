@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./RecommendedVideos.css";
 import VideoCard from "./VideoCard";
-import placeHolderThumbnail from "./images/ironman_real_suit.jpg";
-import placeholderChannelThumbnail from "./images/avatar_alex_lab.jpg";
+import placeHolderThumbnail from "../images/ironman_real_suit.jpg";
+import placeholderChannelThumbnail from "../images/avatar_alex_lab.jpg";
 
 const RecommendedVideos = () => {
   return (
