@@ -28,8 +28,22 @@ const VideoCard = ({
   );
 };
 
-VideoCard.defaultProps = {};
+VideoCard.defaultProps = {
+  image: "",
+  title: "",
+  channel: "",
+  views: "",
+  timestamp: "",
+  channelImage: "",
+};
 
-VideoCard.propTypes = {};
+VideoCard.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  channel: PropTypes.string,
+  views: PropTypes.string,
+  timestamp: PropTypes.string,
+  channelImage: PropTypes.string,
+};
 
 export default VideoCard;

@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
-import SearchPage from "../components/SearchPage";
+import Header from "../../components/Header";
+import Sidebar from "../../components/Sidebar";
+import SearchPage from "./SearchPage";
 
 const Search = () => {
   return (

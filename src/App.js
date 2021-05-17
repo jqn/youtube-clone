@@ -1,6 +1,6 @@
 import "./App.css";
-import Search from "./pages/Search";
-import Home from "./pages/Home";
+import Search from "./pages/search/Search";
+import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {

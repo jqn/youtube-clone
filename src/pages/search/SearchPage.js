@@ -4,8 +4,8 @@ import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
 import "./SearchPage.css";
 import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
-import videoThumbnail from "../images/ironman_real_suit.jpg";
-import channelThumbnail from "../images/avatar_alex_lab.jpg";
+import avatarAlexLab from "../../images/avatar_alex_lab.jpg";
+import alexLabIronMan from "../../images/iron_man_alex_lab.jpg";
 
 const SearchPage = () => {
   return (
@@ -16,7 +16,7 @@ const SearchPage = () => {
       </div>
       <hr />
       <ChannelRow
-        image={channelThumbnail}
+        image={avatarAlexLab}
         channel="Reactor Labs"
         verified
         subs="660K"
@@ -30,7 +30,7 @@ const SearchPage = () => {
         description="Do you want FREE one hour training... check this out."
         channel="Reactor Labs"
         title="Let's build a clone"
-        image={videoThumbnail}
+        image={alexLabIronMan}
       />
     </div>
   );
